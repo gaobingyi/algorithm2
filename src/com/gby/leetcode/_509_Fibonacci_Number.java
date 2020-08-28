@@ -1,4 +1,4 @@
-package com.gby;
+package com.gby.leetcode;
 
 /**
  * https://leetcode.com/problems/fibonacci-number/
