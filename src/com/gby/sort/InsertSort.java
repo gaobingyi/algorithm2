@@ -27,4 +27,8 @@ public class InsertSort implements Sort {
             array[cur] = temp;
         }
     }
+
+    public void sort3(int[] array) {
+        // TODO
+    }
 }
