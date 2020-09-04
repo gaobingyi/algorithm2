@@ -31,4 +31,18 @@ public class InsertSort implements Sort {
     public void sort3(int[] array) {
         // TODO
     }
+
+    /**
+     * @param array
+     * @param index
+     * @return 数组中第index个元素应该插入的位置
+     */
+    private int search(int[] array, int index) {
+        // TODO
+
+
+
+        return -1;
+    }
+
 }
