@@ -72,4 +72,18 @@ public class _53_Maximum_Subarray {
 
         return Math.max(max, leftMax + rightMax);
     }
+
+    // -----------------------------------------------------------------------------------------------------------------
+
+    /**
+     * 动态规划：O(n)
+     *
+     * @param nums
+     * @return
+     */
+    public int maxSubArray3(int[] nums) {
+        // TODO
+
+        return 0;
+    }
 }
