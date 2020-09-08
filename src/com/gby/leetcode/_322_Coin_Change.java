@@ -56,7 +56,7 @@ public class _322_Coin_Change {
         int min = Integer.MAX_VALUE;
         for (int coin : coins) {
             int res = coinChange2(coins, amount - coin, counts);
-            if (res >= 0 && res < min) {
+            if (res < min && res >= 0) {
                 min = res;
             }
         }
