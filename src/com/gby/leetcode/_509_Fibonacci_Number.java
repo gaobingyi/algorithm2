@@ -68,11 +68,13 @@ public class _509_Fibonacci_Number {
         }
         int first = 0;
         int second = 1;
-        int sum;
+//        int sum;
         for (int i = 0; i < N - 1; i++) {
-            sum = first + second;
-            first = second;
-            second = sum;
+//            sum = first + second;
+//            first = second;
+//            second = sum;
+            second += first;
+            first = second - first;
         }
         return second;
     }
